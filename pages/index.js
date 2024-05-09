@@ -78,7 +78,7 @@ function isAuthenticated(req, res, next) {
 // Function to send a message to Discord channel using bot token
 // Function to send a message to Discord channel using bot token
 function sendDiscordMessage(userProfile, formData) {
-    const botToken = 'MTIwMTk5MjY4MjQ5MTM1NTIxNg.Gune67.nUPql4lYMSI15AiOMJm4aNs4yVwe1TF3jJZ-3I'; // Replace this with your bot token
+    const botToken = ''; // Replace this with your bot token
 
     // Get the avatar URL of the sender
     const avatarURL = `https://cdn.discordapp.com/avatars/${userProfile.id}/${userProfile.avatar}.png`;
